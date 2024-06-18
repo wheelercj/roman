@@ -32,7 +32,7 @@ func main() {
 // repl is a read-eval-print-loop for interactively converting a bunch of numbers from
 // Arabic to Roman numerals.
 func repl() {
-	fmt.Println("Arabic to Roman numeral converter v1.0.0")
+	fmt.Println("Arabic to Roman numeral converter v1.0.1")
 
 	for {
 		fmt.Print(">>> ")
