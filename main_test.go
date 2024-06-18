@@ -131,6 +131,8 @@ func TestConvert(t *testing.T) {
 				} else if err.Error() != test.wantErr.Error() {
 					t.Errorf("Convert(%d) gave error %q, want error %q", test.input, err, test.wantErr)
 				}
+			} else if test.wantErr != nil {
+				t.Errorf("Convert(%d) = %q, want error %q", test.input, got, test.wantErr)
 			}
 			if got != test.want {
 				t.Errorf("Convert(%d) = %q, want %q", test.input, got, test.want)
