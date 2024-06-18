@@ -3,3 +3,5 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/wheelercj/roman.svg)](https://pkg.go.dev/github.com/wheelercj/roman)
 
 ![demo.png](./demo.png)
+
+Install with `github.com/wheelercj/roman@latest`
