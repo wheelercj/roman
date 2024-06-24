@@ -4,4 +4,4 @@
 
 ![demo.png](./demo.png)
 
-Install with `github.com/wheelercj/roman@latest`
+Install with `go install github.com/wheelercj/roman@latest`
